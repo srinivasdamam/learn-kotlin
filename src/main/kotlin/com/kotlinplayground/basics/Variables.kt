@@ -21,4 +21,10 @@ fun main() {
     // String interpolation is done by :$
     val age = 30;
     println("Age is $age")
+
+    var multiline = """
+        Bengaluru
+        Pune
+    """.trimIndent()
+    println("Cities are $multiline")
 }
